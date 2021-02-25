@@ -17,13 +17,13 @@ namespace choose_your_own_adventure
         int scene = 0;
         SoundPlayer sceneSound;
 
-        
-       
+
+
         public Form1()
         {
-            
 
-           
+
+
             InitializeComponent();
             outputLabel.Parent = pictureBox;
             yellowLabel.Parent = pictureBox;
@@ -45,22 +45,23 @@ namespace choose_your_own_adventure
             // red key click
             if (e.KeyCode == Keys.M)
             {
+
                 if (scene == 0) { scene = 1; }
                 else if (scene == 1) { scene = 3; }
                 else if (scene == 2) { scene = 12; }
                 else if (scene == 3) { scene = 6; }
-                else if (scene == 4) {}
+                else if (scene == 4) { }
                 else if (scene == 5) { scene = 0; }
                 else if (scene == 6) { scene = 8; }
                 else if (scene == 7) { scene = 0; }
                 else if (scene == 8) { scene = 0; }
-                else if (scene == 9) {}
+                else if (scene == 9) { }
                 else if (scene == 10) { scene = 0; }
                 else if (scene == 11) { scene = 13; }
                 else if (scene == 12) { scene = 0; }
-                else if (scene == 13) {}
+                else if (scene == 13) { }
                 else if (scene == 14) { scene = 0; }
-                else if (scene == 99) {}
+                else if (scene == 99) { }
 
 
 
@@ -108,14 +109,14 @@ namespace choose_your_own_adventure
             switch (scene)
             {
                 case 0:  //start scene  
-                    outputLabel.Text = "You have decided to finally follow throug with your dream of starting your own company. Starting your own business if risky... try to end up rich.  What type of company would you like to create?";
+                    outputLabel.Text = "You have decided to finally follow through with your dream of starting your own company. Starting your own business is risky... try to end up rich.  What type of company would you like to create?";
                     redLabel.Text = "Cupcake Store";
                     blueLabel.Text = "Clothing Business";
                     yellowLabel.Text = "";
                     yellowFakeButton.BackColor = Color.Transparent;
 
                     pictureBox.BackgroundImage = Properties.Resources.small_business;
-                    sceneSound  = new SoundPlayer(Properties.Resources.applause);
+                    sceneSound = new SoundPlayer(Properties.Resources.applause);
                     sceneSound.Play();
                     break;
 
@@ -153,7 +154,7 @@ namespace choose_your_own_adventure
                     break;
 
                 case 4:// successful case and close program
-                    outputLabel.Text = "  Smart move on your part! Every party Miranda plans will now use your cakes and boy does she have some high end customers. Both of you are bound to be millionaires. Congrats!";
+                    outputLabel.Text = "  Smart move on your part! Every party Miranda plans will now use your cakes and boy does she have some high end customers. Both of you are bound to be millionaires. Congratulations!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     redFakeButton.BackColor = Color.Transparent;
@@ -171,7 +172,7 @@ namespace choose_your_own_adventure
                     break;
 
                 case 5:
-                    outputLabel.Text = "Your small business is not going to work well with no experience. Maybe this company is not the right fit for ou. Would you like to play again?";
+                    outputLabel.Text = "Your small business is not going to work well with no experience. Maybe this company is not the right fit for you. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     yellowFakeButton.BackColor = Color.Transparent;
@@ -195,8 +196,8 @@ namespace choose_your_own_adventure
                     sceneSound.Play();
                     break;
 
-                case 7:  
-                    outputLabel.Text = "Why would you partner with a gym full of health geeks when you are selling sweet treats. This drove you out of business. Do better. Would you like to play again?";
+                case 7:
+                    outputLabel.Text = "Why would you partner with a gym full of health geeks when you are selling sweet treats? This decision drove you out of business. Do better. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     yellowLabel.Text = "";
@@ -208,8 +209,8 @@ namespace choose_your_own_adventure
 
                     break;
 
-                case 8: 
-                    outputLabel.Text = "Uh oh...Christi was partnering with you just to sabatoge you. You are now bankrupt and somehow have a warrant for arrest in your name. Would you like to play again?";
+                case 8:
+                    outputLabel.Text = "Uh oh...Christi was partnering with you just to sabatoge you. You are now bankrupt and somehow have a warrant for an arrest in your name. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     yellowLabel.Text = "";
@@ -221,7 +222,7 @@ namespace choose_your_own_adventure
                     break;
 
                 case 9: //sucessful case and close program
-                    outputLabel.Text = "You were determined to make it work on your own and boy did it pay off. Jeff Bezos wants you to make his daughters birthday cake.You are rich!";
+                    outputLabel.Text = "You were determined to make it work on your own and boy did it pay off. Jeff Bezos wants you to make his daughter's birthday cake. You are rich!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
@@ -239,7 +240,7 @@ namespace choose_your_own_adventure
 
                     break;
 
-                case 10: 
+                case 10:
                     outputLabel.Text = "Uh oh...you got bored of your own business and gave up. All your start up money is gone and you are now broke. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -251,7 +252,7 @@ namespace choose_your_own_adventure
                     sceneSound.Play();
                     break;
 
-                case 11: 
+                case 11:
                     outputLabel.Text = "You decide to sell in a store. A top fashion designer liked what he sees. Do you want to talk to him?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -263,8 +264,8 @@ namespace choose_your_own_adventure
                     sceneSound.Play();
                     break;
 
-                case 12: 
-                    outputLabel.Text = "Within your first month of sales your website got hacked! Everyones information got leaked and you are in deep trouble. You have been sued. Would you like to play again?";
+                case 12:
+                    outputLabel.Text = "Within your first month of sales your website got hacked! Everyones information got leaked and you're in deep trouble. You have been sued! Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     yellowLabel.Text = "";
@@ -276,7 +277,7 @@ namespace choose_your_own_adventure
                     break;
 
                 case 13:  //successful case and quit program
-                    outputLabel.Text = "You talk to him and he wants to mentor you during fashion week. You are going to paris!! You are bound to be sucessful!";
+                    outputLabel.Text = "You talk to him and he wants to mentor you during fashion week. You are going to Paris!! You are bound to be sucessful!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
@@ -293,7 +294,7 @@ namespace choose_your_own_adventure
                     Application.Exit();
                     break;
 
-                case 14: 
+                case 14:
                     outputLabel.Text = "You roll your eyes and walk away. Little did you know he was looking for new talent to take to Paris for fashion week. You gain a bad reputation and all of a sudden no one wants to support your business. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -313,7 +314,7 @@ namespace choose_your_own_adventure
                     redFakeButton.BackColor = Color.Transparent;
                     yellowLabel.Text = "";
                     yellowFakeButton.BackColor = Color.Transparent;
-                    pictureBox.BackgroundImage = Properties.Resources.colour ;
+                    pictureBox.BackgroundImage = Properties.Resources.colour;
                     sceneSound = new SoundPlayer(Properties.Resources.gameOver);
                     sceneSound.Play();
 
@@ -321,7 +322,7 @@ namespace choose_your_own_adventure
                     Thread.Sleep(3000);
                     Application.Exit();
                     break;
-                    
+
 
 
 
@@ -331,7 +332,7 @@ namespace choose_your_own_adventure
             }
         }
 
- 
+
     }
 }
 
