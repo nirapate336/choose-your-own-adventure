@@ -44,7 +44,7 @@
             // 
             this.pictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox.BackgroundImage")));
             this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox.Location = new System.Drawing.Point(-1, -3);
+            this.pictureBox.Location = new System.Drawing.Point(1, 0);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(824, 432);
             this.pictureBox.TabIndex = 0;
@@ -55,20 +55,19 @@
             this.outputLabel.BackColor = System.Drawing.Color.Transparent;
             this.outputLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.outputLabel.Font = new System.Drawing.Font("Schneidler Md BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.Location = new System.Drawing.Point(32, 18);
+            this.outputLabel.Location = new System.Drawing.Point(10, 47);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(579, 128);
+            this.outputLabel.Size = new System.Drawing.Size(629, 132);
             this.outputLabel.TabIndex = 1;
             this.outputLabel.Text = "You have decided to finally follow throug with your dream of starting your own co" +
     "mpany. Starting your own business if risky... try to end up rich.  What type of " +
     "company would you like to create?";
-            this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // redLabel
             // 
             this.redLabel.BackColor = System.Drawing.Color.Transparent;
             this.redLabel.Font = new System.Drawing.Font("Myanmar Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.redLabel.Location = new System.Drawing.Point(60, 168);
+            this.redLabel.Location = new System.Drawing.Point(51, 179);
             this.redLabel.Name = "redLabel";
             this.redLabel.Size = new System.Drawing.Size(209, 34);
             this.redLabel.TabIndex = 2;
@@ -78,7 +77,7 @@
             // 
             this.blueLabel.BackColor = System.Drawing.Color.Transparent;
             this.blueLabel.Font = new System.Drawing.Font("Myanmar Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.Location = new System.Drawing.Point(60, 218);
+            this.blueLabel.Location = new System.Drawing.Point(51, 218);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(209, 34);
             this.blueLabel.TabIndex = 3;
@@ -89,7 +88,7 @@
             this.yellowLabel.AutoSize = true;
             this.yellowLabel.BackColor = System.Drawing.Color.Transparent;
             this.yellowLabel.Font = new System.Drawing.Font("Myanmar Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yellowLabel.Location = new System.Drawing.Point(60, 277);
+            this.yellowLabel.Location = new System.Drawing.Point(54, 266);
             this.yellowLabel.Name = "yellowLabel";
             this.yellowLabel.Size = new System.Drawing.Size(0, 37);
             this.yellowLabel.TabIndex = 4;

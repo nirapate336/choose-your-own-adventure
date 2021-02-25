@@ -186,5 +186,11 @@
   <ItemGroup>
     <None Include="Resources\433644__dersuperanton__game-over-sound.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b day cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dayday.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

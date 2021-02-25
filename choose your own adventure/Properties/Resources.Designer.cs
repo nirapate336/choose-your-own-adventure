@@ -72,6 +72,16 @@ namespace choose_your_own_adventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap b_day_cake {
+            get {
+                object obj = ResourceManager.GetObject("b_day_cake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bored {
             get {
                 object obj = ResourceManager.GetObject("bored", resourceCulture);
@@ -135,6 +145,16 @@ namespace choose_your_own_adventure.Properties {
         internal static System.Drawing.Bitmap comcom {
             get {
                 object obj = ResourceManager.GetObject("comcom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dayday {
+            get {
+                object obj = ResourceManager.GetObject("dayday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

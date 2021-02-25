@@ -54,13 +54,13 @@ namespace choose_your_own_adventure
                 else if (scene == 6) { scene = 8; }
                 else if (scene == 7) { scene = 0; }
                 else if (scene == 8) { scene = 0; }
-                else if (scene == 9) { }
+                else if (scene == 9) {}
                 else if (scene == 10) { scene = 0; }
                 else if (scene == 11) { scene = 13; }
                 else if (scene == 12) { scene = 0; }
-                else if (scene == 13) { }
+                else if (scene == 13) {}
                 else if (scene == 14) { scene = 0; }
-                else if (scene == 99) { }
+                else if (scene == 99) {}
 
 
 
@@ -147,13 +147,13 @@ namespace choose_your_own_adventure
                     blueLabel.Text = "No";
                     yellowFakeButton.BackColor = Color.Transparent;
 
-                    pictureBox.BackgroundImage = Properties.Resources.scene_3_again;
+                    pictureBox.BackgroundImage = Properties.Resources.dayday;
                     sceneSound = new SoundPlayer(Properties.Resources.ovenDing);
                     sceneSound.Play();
                     break;
 
                 case 4:// successful case and close program
-                    outputLabel.Text = "  Smart move on your part! Every party Miranda plans will now use your cakes. Both of you are bound to be millionaires. Congrats!";
+                    outputLabel.Text = "  Smart move on your part! Every party Miranda plans will now use your cakes and boy does she have some high end customers. Both of you are bound to be millionaires. Congrats!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     redFakeButton.BackColor = Color.Transparent;
@@ -196,7 +196,7 @@ namespace choose_your_own_adventure
                     break;
 
                 case 7:  
-                    outputLabel.Text = "Why would you partner with a gym full of health geeks when you are selling sweet treats. This drove you out of business. Do better. Would you like to play again";
+                    outputLabel.Text = "Why would you partner with a gym full of health geeks when you are selling sweet treats. This drove you out of business. Do better. Would you like to play again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     yellowLabel.Text = "";
