@@ -108,6 +108,7 @@ namespace choose_your_own_adventure
             }
             switch (scene)
             {
+                // declaring the scenes
                 case 0:  //start scene  
                     outputLabel.Text = "You have decided to finally follow through with your dream of starting your own company. Starting your own business is risky... try to end up rich.  What type of company would you like to create?";
                     redLabel.Text = "Cupcake Store";
