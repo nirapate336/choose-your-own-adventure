@@ -308,14 +308,15 @@ namespace choose_your_own_adventure
                     break;
 
                 case 99:  //end scene 
-                    outputLabel.Text = "Thank you for playing! Better luck next time!";
+                    outputLabel.Text = "";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     blueFakeButton.BackColor = Color.Transparent;
                     redFakeButton.BackColor = Color.Transparent;
                     yellowLabel.Text = "";
                     yellowFakeButton.BackColor = Color.Transparent;
-                    pictureBox.BackgroundImage = Properties.Resources.colour;
+                    pictureBox.BackgroundImage = Properties.Resources.game3
+                        ;
                     sceneSound = new SoundPlayer(Properties.Resources.gameOver);
                     sceneSound.Play();
 
