@@ -269,6 +269,7 @@ namespace choose_your_own_adventure
                     blueLabel.Text = "No";
                     yellowLabel.Text = "";
                     yellowFakeButton.Text = "";
+
                     pictureBox.BackgroundImage = Properties.Resources.comcom;
                     sceneSound = new SoundPlayer(Properties.Resources.error);
                     sceneSound.Play();
